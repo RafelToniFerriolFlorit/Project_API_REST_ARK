@@ -1,0 +1,25 @@
+POST /api/alumnos/calculate HTTP/1.1
+Host: localhost:3000
+Content-Type: application/json
+Content-Length: 184
+
+[
+  {
+    "name": "Oscar",
+    "surname": "Cobo",
+    "age": 28,
+    "grades": [5,6,7,8,9]
+  },
+  {
+    "name": "Silvia",
+    "surname": "Cobo",
+    "age": 38,
+    "grades": [5,5,4,4,6]
+  },
+  {
+    "name": "Manuel",
+    "surname": "Cobo",
+    "age": 48,
+    "grades": [4,2,2,10,7]
+  }
+]

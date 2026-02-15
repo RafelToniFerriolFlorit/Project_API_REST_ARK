@@ -1,26 +1,16 @@
-FROM node:20-alpine
+FROM node:18-alpine
 
 WORKDIR /app
 
-
-RUN addgroup -S appgroup && adduser -S appuser -G appgroup
-
-
 COPY package*.json ./
 
-RUN npm install --production
+RUN npm install
 
+COPY . .
 
-COPY src ./src
-
-
-RUN chown -R appuser:appgroup /app
-
-
-USER appuser
-
+RUN chown -R node:node /app
+USER node
 
 EXPOSE 3000
-
 
 CMD ["node", "src/app.js"]
