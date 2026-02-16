@@ -21,6 +21,7 @@
 ·Para mostrar las criaturas de una categoria concreta, escrivimos lo siguiente: http://localhost:3000/api/ark?categoria=nombre_categoria
 
 ·Ejemplo: 
+	  
 	  http://localhost:3000/api/ark?categoria=terrestre
 
 	  http://localhost:3000/api/ark?categoria=insecto
