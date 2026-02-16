@@ -3,7 +3,7 @@
 ## FUNCIONAMIENTO GENERAL DE LA API:
 
 
-## Esta API REST nos permite hacer las diferentes operaciones:
+
 
 
 ## Operacion 1: Visualizar todos los dinosaurios del JSON:
