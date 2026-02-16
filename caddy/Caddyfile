@@ -1,5 +1,6 @@
 {
     acme_ca https://acme-staging-v02.api.letsencrypt.org/directory
+    #Para hacer pruebas utilize un certificado de test de Let's Encrypt
 }
 
 apiark.servehalflife.com {
