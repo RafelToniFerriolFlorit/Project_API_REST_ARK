@@ -1,12 +1,15 @@
 ## Project_API_REST_ARK
 ## Explicacion del JSON:
-	 {
+	 
     "t": "Dinos", <--- Tipo de criatura de ARK:
     "cid": "allosaurus", <- Nombre del dinosaurio
     "l": "Allosaurus", <- Nombre 2 que pone la dododex
     "id": 1,  <--- ID de identifiacion de cada criatura
     "bp": "/Game/PrimalEarth/Dinos/Allosaurus/Allo_Character_BP.Allo_Character_BP" <----- No se utiliza en la API REST
     "cat": "terrestre" <-- Categoria
+
+	
+	
  	
 ## FUNCIONAMIENTO GENERAL DE LA API:
 
