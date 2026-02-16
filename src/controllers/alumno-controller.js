@@ -5,7 +5,6 @@ exports.calculate = async (req, res) => {
     const input = req.body;
     const resultado = [];
 
-    // 1️⃣ Crear alumnos y calcular media
     for (let i = 0; i < input.length; i++) {
 
         const a = new Alumno(
